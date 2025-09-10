@@ -67,7 +67,7 @@ My passion of developing efficient and convenient applications, interest in lear
       ],
       details: [
         { label: 'Location', value: 'Based in Islamabad' },
-        { label: 'Experience', value: '42+ Years Experience' },
+        { label: 'Experience', value: '4+ Years Experience' },
       ],
       qualities: [
         {

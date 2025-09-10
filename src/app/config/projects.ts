@@ -45,7 +45,7 @@ export const projects: Project[] = [
     tags: ['Express.js', 'Node.js', 'MongoDB', 'TypeScript'],
     githubLink: 'https://github.com/PraveenGongada/Catalyst',
     liveLink: '',
-    type: 'CLI',
+    type: 'Backend',
     thumbnail: '/images/armada/thumbnail.jfif',
     gifUrl: '',
     carouselImages: [
@@ -59,23 +59,23 @@ export const projects: Project[] = [
       '/images/armada/inbox.jfif',
     ],
   },
-  {
-    id: 3,
-    title: 'MovieDB',
-    description:
-      'A cinema app featuring intuitive browsing and comprehensive movie details with seamless user experience.',
-    tags: ['Flutter', 'Dart'],
-    githubLink: 'https://github.com/PraveenGongada/MovieDB',
-    type: 'App',
-    thumbnail:
-      'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/thumbnail.png',
-    carouselImages: [
-      'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/home.png',
-      'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/movie.png',
-    ],
-    carouselConfig: {
-      interval: 2000,
-      infinite: true,
-    },
-  },
+  // {
+  //   id: 3,
+  //   title: 'MovieDB',
+  //   description:
+  //     'A cinema app featuring intuitive browsing and comprehensive movie details with seamless user experience.',
+  //   tags: ['Flutter', 'Dart'],
+  //   githubLink: 'https://github.com/PraveenGongada/MovieDB',
+  //   type: 'App',
+  //   thumbnail:
+  //     'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/thumbnail.png',
+  //   carouselImages: [
+  //     'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/home.png',
+  //     'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/movie.png',
+  //   ],
+  //   carouselConfig: {
+  //     interval: 2000,
+  //     infinite: true,
+  //   },
+  // },
 ];
