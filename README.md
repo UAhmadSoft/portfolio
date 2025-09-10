@@ -315,7 +315,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ---
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/PraveenGongada">Praveen Kumar</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/PraveenGongada">Umad Ahmad</a></p>
   <p>
     <a href="https://linkedin.com/in/praveengongada">LinkedIn</a> •
     <a href="https://praveengongada.com">Website</a>

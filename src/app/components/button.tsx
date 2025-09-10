@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Praveen Kumar
+ * Copyright 2025 Umad Ahmad
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,6 +29,7 @@ interface ButtonProps {
   rel?: string;
   iconType?: 'arrow' | 'default';
   className?: string;
+  download?: string | boolean;
 }
 
 export const Button: React.FC<ButtonProps> = ({
@@ -41,6 +42,7 @@ export const Button: React.FC<ButtonProps> = ({
   rel,
   iconType = 'default',
   className = '',
+  download = false,
 }) => {
   // Base classes for all buttons
   const baseClasses =
@@ -61,7 +63,7 @@ export const Button: React.FC<ButtonProps> = ({
       onClick={onClick}
       target={target}
       rel={rel}
-      download={false}
+      download={download}
       className={`${baseClasses} ${variantClasses[variant]} ${className} inline-flex transition-transform duration-300`}
     >
       <span className="flex items-center">

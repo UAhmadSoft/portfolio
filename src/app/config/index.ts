@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Praveen Kumar
+ * Copyright 2025 Umad Ahmad
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,9 +25,9 @@ import { skills } from '@/app/config/skills';
  */
 export const portfolioConfig: PortfolioConfig = {
   siteMetadata: {
-    title: 'Praveen Kumar',
-    description: 'Portfolio website by Praveen',
-    author: 'Praveen Kumar',
+    title: 'Umad Ahmad',
+    description: 'Portfolio website by Umad Ahmad',
+    author: 'Umad Ahmad',
   },
 
   navigation: {
@@ -46,14 +46,14 @@ export const portfolioConfig: PortfolioConfig = {
   sections: {
     home: {
       greeting: "Hi, I'm",
-      name: 'Praveen Kumar',
+      name: 'Umad Ahmad',
       typingTexts: [
         'Building digital experiences',
         'Solving complex problems',
         'Creating user-focused apps',
       ],
-      description:
-        "I'm enthusiastic about discovering new digital technologies and expanding my knowledge of innovative, creative design principles. My curiosity drives me to continuously learn about modern technologies and their potential to create meaningful experiences.",
+      description: `Hi I am Umad Ahmad, a Full Stack Web Typescript Developer, who loves to develop smart, reliable and scalable applications.
+My passion of developing efficient and convenient applications, interest in learning new technologies, enables me to develop more effective solutions and keep myself up to date. `,
       scrollIndicatorText: 'Scroll to explore',
     },
 
@@ -61,13 +61,13 @@ export const portfolioConfig: PortfolioConfig = {
       title: 'About',
       subtitle: 'Me',
       bio: [
-        "Hi, I'm a Software Engineering enthusiast living in Bangalore. I enjoy turning creative ideas into working solutions in my spare time.",
-        "I've been exploring tech for about 2 years, with interests spanning across different development areas. I'm fascinated by intuitive digital experiences that just feel right.",
-        "When I'm not working on code professionally, you'll find me reading about emerging technologies, contributing to open-source projects, and constantly picking up new skills and hobbies.",
+        "I'm a passionate NestJS developer with a strong focus on building scalable and maintainable backend systems.",
+        'I have hands-on experience designing RESTful APIs, integrating databases, and implementing authentication and authorization in modern web applications.',
+        'I enjoy collaborating with cross-functional teams to deliver robust solutions and continuously improve my skills in TypeScript and backend architecture.',
       ],
       details: [
-        { label: 'Location', value: 'Based in Bangalore' },
-        { label: 'Experience', value: '2+ Years Experience' },
+        { label: 'Location', value: 'Based in Islamabad' },
+        { label: 'Experience', value: '42+ Years Experience' },
       ],
       qualities: [
         {
@@ -109,7 +109,7 @@ export const portfolioConfig: PortfolioConfig = {
       projects: projects,
       viewMoreButton: {
         label: 'View More Projects',
-        url: 'https://github.com/PraveenGongada',
+        url: 'https://github.com/UAhmadsoft',
       },
     },
 
@@ -131,7 +131,7 @@ export const portfolioConfig: PortfolioConfig = {
   },
 
   footer: {
-    copyright: `© ${new Date().getFullYear()} Praveen Kumar. All rights reserved.`,
+    copyright: `© ${new Date().getFullYear()} Umad Ahmad. All rights reserved.`,
     tagline: 'Designed and built with ❤️',
   },
 };

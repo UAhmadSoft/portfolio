@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 Praveen Kumar
+ * Copyright 2025 Umad Ahmad
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -209,6 +209,7 @@ const Home: React.FC<HomeProps> = ({ onConnectClick }) => {
                 }
                 variant="primary"
                 iconType="default"
+                download="resume.pdf"
               />
 
               <Button
