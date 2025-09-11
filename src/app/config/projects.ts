@@ -44,7 +44,7 @@ export const projects: Project[] = [
       "The seamless platform connecting car owners and renters in one dynamic marketplace. Whether you're looking to rent for your next trip or list your car to earn extra income, Armada makes it easy!.",
     tags: ['Express.js', 'Node.js', 'MongoDB', 'TypeScript'],
     githubLink: '',
-    liveLink: '',
+    liveLink: 'https://apps.apple.com/us/app/armada-autos/id6740725105',
     type: 'Backend',
     thumbnail: '/images/armada/thumbnail.jfif',
     gifUrl: '',
