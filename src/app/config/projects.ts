@@ -43,7 +43,7 @@ export const projects: Project[] = [
     description:
       "The seamless platform connecting car owners and renters in one dynamic marketplace. Whether you're looking to rent for your next trip or list your car to earn extra income, Armada makes it easy!.",
     tags: ['Express.js', 'Node.js', 'MongoDB', 'TypeScript'],
-    githubLink: 'https://github.com/PraveenGongada/Catalyst',
+    githubLink: '',
     liveLink: '',
     type: 'Backend',
     thumbnail: '/images/armada/thumbnail.jfif',
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     description:
       'An AI-based app designed to take plant care to the next level! With cutting-edge AI technology, Plantx helps plant lovers like you thrive by providing personalized plant care solutions, all at your fingertips. 🌞💧',
     tags: ['NestJs', 'TypeScript', 'MongoDB', 'AI'],
-    githubLink: 'https://github.com/PraveenGongada/MovieDB',
+    githubLink: '',
     type: 'Backend',
     thumbnail: '/images/plantx/thumbnail.jpg',
     carouselImages: [
