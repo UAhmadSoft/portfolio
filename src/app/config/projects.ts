@@ -49,6 +49,7 @@ export const projects: Project[] = [
     thumbnail: '/images/armada/thumbnail.jfif',
     gifUrl: '',
     carouselImages: [
+      '/images/armada/thumbnail.jfif',
       '/images/armada/roles.jfif',
       '/images/armada/home.jfif',
       '/images/armada/bookings.jfif',
@@ -59,23 +60,28 @@ export const projects: Project[] = [
       '/images/armada/inbox.jfif',
     ],
   },
-  // {
-  //   id: 3,
-  //   title: 'MovieDB',
-  //   description:
-  //     'A cinema app featuring intuitive browsing and comprehensive movie details with seamless user experience.',
-  //   tags: ['Flutter', 'Dart'],
-  //   githubLink: 'https://github.com/PraveenGongada/MovieDB',
-  //   type: 'App',
-  //   thumbnail:
-  //     'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/thumbnail.png',
-  //   carouselImages: [
-  //     'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/home.png',
-  //     'https://raw.githubusercontent.com/PraveenGongada/MovieDB/refs/heads/main/docs/images/movie.png',
-  //   ],
-  //   carouselConfig: {
-  //     interval: 2000,
-  //     infinite: true,
-  //   },
-  // },
+  {
+    id: 3,
+    title: 'PlantX',
+    description:
+      'An AI-based app designed to take plant care to the next level! With cutting-edge AI technology, Plantx helps plant lovers like you thrive by providing personalized plant care solutions, all at your fingertips. 🌞💧',
+    tags: ['NestJs', 'TypeScript', 'MongoDB', 'AI'],
+    githubLink: 'https://github.com/PraveenGongada/MovieDB',
+    type: 'Backend',
+    thumbnail: '/images/plantx/thumbnail.jpg',
+    carouselImages: [
+      '/images/plantx/thumbnail.jpg',
+      '/images/plantx/home-screen.jpg',
+      '/images/plantx/scan.jpg',
+      '/images/plantx/plant.jpg',
+      '/images/plantx/reminder.jpg',
+      '/images/plantx/scanning.jpg',
+      '/images/plantx/water-calculator.jpg',
+      '/images/plantx/footer.jpg',
+    ],
+    carouselConfig: {
+      interval: 2000,
+      infinite: true,
+    },
+  },
 ];
