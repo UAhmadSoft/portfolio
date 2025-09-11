@@ -18,8 +18,8 @@ import { Project } from '../types/types';
 
 export const projects: Project[] = [
   {
-    id: 1,
-    title: 'Ubrealty',
+    id: Math.random(),
+    title: 'Ubrealty - Real Estate Platform',
     description:
       'A comprehensive, modern URL shortener featuring user accounts, link management, and an analytics dashboard.',
     tags: ['Next.js', 'PostgreSQL', 'TypeScript', 'Google APIs', 'Redis'],
@@ -38,8 +38,8 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 2,
-    title: 'Armada',
+    id: Math.random(),
+    title: 'Armada - Car Rental Marketplace',
     description:
       "The seamless platform connecting car owners and renters in one dynamic marketplace. Whether you're looking to rent for your next trip or list your car to earn extra income, Armada makes it easy!.",
     tags: ['Express.js', 'Node.js', 'MongoDB', 'TypeScript'],
@@ -61,8 +61,8 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 3,
-    title: 'PlantX',
+    id: Math.random(),
+    title: 'PlantX - AI Plant Care App',
     description:
       'An AI-based app designed to take plant care to the next level! With cutting-edge AI technology, Plantx helps plant lovers like you thrive by providing personalized plant care solutions, all at your fingertips. 🌞💧',
     tags: ['NestJs', 'TypeScript', 'MongoDB', 'AI'],
@@ -85,8 +85,8 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 4,
-    title: 'MiWeigh',
+    id: Math.random(),
+    title: 'Miweigh - Packaging Management System',
     description: `Developed full-stack packaging management system for UK manufacturing operations tracking production metrics, operator performance, and recipe management with Elasticsearch integration for real-time analytics.`,
     tags: ['Node.js', 'Express.js', 'MongoDB', 'Elastic Search', 'React.js'],
     githubLink: '',
@@ -108,8 +108,8 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 5,
-    title: 'StretchUp',
+    id: Math.random(),
+    title: 'Stretch Up - Wellness & Flexibility App',
     description: `Developed NestJS backend for fitness and stretching platform promoting flexibility and wellness. Built personalized routine system with progress tracking and achievement mechanisms. Created APIs for guided exercise content, meditation sessions, and daily habit tracking. Designed PostgreSQL database schema for user analytics, routine customization, and gamification features.`,
     tags: ['Node.js', 'Express.js', 'PostgreSQL'],
     githubLink: '',
@@ -124,6 +124,29 @@ export const projects: Project[] = [
       '/images/stretch-up/tracking2.png',
       '/images/stretch-up/timer.png',
       '/images/stretch-up/goals.png',
+    ],
+    carouselConfig: {
+      interval: 2000,
+      infinite: true,
+    },
+  },
+  {
+    id: Math.random(),
+    title: 'PuffLess - Quit Smoking App',
+    description: `Developed comprehensive smoking cessation platform combining behavioral science with technology to support users in their quit journey. Built NestJS backend with personalized quit plan algorithms, progress tracking systems, and AI-powered coaching features. Implemented gamification mechanics including achievement systems and milestone rewards, craving management tools with guided meditation content, and secure user data handling for sensitive health information tracking.`,
+    tags: ['Nest.js', 'PostgreSQL'],
+    githubLink: '',
+    type: 'Backend',
+    liveLink: 'https://apps.apple.com/pk/app/puffless-quit-smoking/id6740874361',
+    thumbnail: '/images/puffless/home.png',
+    carouselImages: [
+      '/images/puffless/home.png',
+      '/images/puffless/guidance.png',
+      '/images/puffless/account-creation.png',
+      '/images/puffless/track.png',
+      '/images/puffless/track-victory.png',
+      '/images/puffless/understand-habit.png',
+      '/images/puffless/victory-wall.png',
     ],
     carouselConfig: {
       interval: 2000,
