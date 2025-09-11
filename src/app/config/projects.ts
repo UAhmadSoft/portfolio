@@ -115,10 +115,10 @@ export const projects: Project[] = [
     githubLink: '',
     type: 'Backend',
     liveLink: 'https://apps.apple.com/us/app/pliability-split-stretchup/id6739634780',
-    thumbnail: '/images/stretch-up/home.png',
+    thumbnail: '/images/stretch-up/exercises-list.png',
     carouselImages: [
-      '/images/stretch-up/home.png',
       '/images/stretch-up/exercises-list.png',
+      '/images/stretch-up/home.png',
       '/images/stretch-up/tracking-exercises.png',
       '/images/stretch-up/create-routine.png',
       '/images/stretch-up/tracking2.png',
