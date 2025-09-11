@@ -84,4 +84,26 @@ export const projects: Project[] = [
       infinite: true,
     },
   },
+  {
+    id: 4,
+    title: 'MiWeigh',
+    description: `Developed full-stack packaging management system for UK manufacturing operations tracking production metrics, operator performance, and recipe management with Elasticsearch integration for real-time analytics.`,
+    tags: ['Node.js', 'Express.js', 'MongoDB', 'Elastic Search', 'React.js'],
+    githubLink: '',
+    type: 'Backend',
+    thumbnail: '/images/miweigh/home.png',
+    carouselImages: [
+      '/images/miweigh/home.png',
+      '/images/miweigh/dashboard.png',
+      '/images/miweigh/management-panel.png',
+      '/images/miweigh/giveaway-analysis.png',
+      '/images/miweigh/operators-performance.png',
+      '/images/miweigh/current-status.png',
+      '/images/miweigh/reports.png',
+    ],
+    carouselConfig: {
+      interval: 2000,
+      infinite: true,
+    },
+  },
 ];
