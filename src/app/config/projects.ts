@@ -91,6 +91,7 @@ export const projects: Project[] = [
     tags: ['Node.js', 'Express.js', 'MongoDB', 'Elastic Search', 'React.js'],
     githubLink: '',
     type: 'Backend',
+    liveLink: 'https://MiWeigh.uk',
     thumbnail: '/images/miweigh/home.png',
     carouselImages: [
       '/images/miweigh/home.png',
@@ -100,6 +101,29 @@ export const projects: Project[] = [
       '/images/miweigh/operators-performance.png',
       '/images/miweigh/current-status.png',
       '/images/miweigh/reports.png',
+    ],
+    carouselConfig: {
+      interval: 2000,
+      infinite: true,
+    },
+  },
+  {
+    id: 5,
+    title: 'StretchUp',
+    description: `Developed NestJS backend for fitness and stretching platform promoting flexibility and wellness. Built personalized routine system with progress tracking and achievement mechanisms. Created APIs for guided exercise content, meditation sessions, and daily habit tracking. Designed PostgreSQL database schema for user analytics, routine customization, and gamification features.`,
+    tags: ['Node.js', 'Express.js', 'PostgreSQL'],
+    githubLink: '',
+    type: 'Backend',
+    liveLink: 'https://apps.apple.com/us/app/pliability-split-stretchup/id6739634780',
+    thumbnail: '/images/stretch-up/home.png',
+    carouselImages: [
+      '/images/stretch-up/home.png',
+      '/images/stretch-up/exercises-list.png',
+      '/images/stretch-up/tracking-exercises.png',
+      '/images/stretch-up/create-routine.png',
+      '/images/stretch-up/tracking2.png',
+      '/images/stretch-up/timer.png',
+      '/images/stretch-up/goals.png',
     ],
     carouselConfig: {
       interval: 2000,
