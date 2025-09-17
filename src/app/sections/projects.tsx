@@ -353,10 +353,10 @@ const Projects: React.FC = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center text-gray-300 hover:text-emerald-400 transition-colors duration-300"
-                          aria-label={`View live demo of ${project.title}`}
+                          aria-label={`View live link of ${project.title}`}
                         >
                           <ExternalLink size={18} className="mr-1.5" />
-                          <span>Live Demo</span>
+                          <span>Live Link</span>
                         </a>
                       )}
 
